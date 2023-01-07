@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E339A442965CB6C00D3DA7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E339A432965CB6C00D3DA7C /* AppDelegate.swift */; };
+		9E339A462965CB6C00D3DA7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E339A452965CB6C00D3DA7C /* SceneDelegate.swift */; };
+		9E339A482965CB6C00D3DA7C /* SleepController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E339A472965CB6C00D3DA7C /* SleepController.swift */; };
+		9E339A4D2965CB6D00D3DA7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E339A4C2965CB6D00D3DA7C /* Assets.xcassets */; };
+		9E339A502965CB6D00D3DA7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E339A4E2965CB6D00D3DA7C /* LaunchScreen.storyboard */; };
+		9E339A5A2965CC8D00D3DA7C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E339A592965CC8D00D3DA7C /* TabBarController.swift */; };
+		9E339A5E2965CD0800D3DA7C /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E339A5D2965CD0800D3DA7C /* Resources.swift */; };
+		9E339A602965CD1300D3DA7C /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E339A5F2965CD1300D3DA7C /* UIColor.swift */; };
+		9E339A742967CBCC00D3DA7C /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E339A732967CBCC00D3DA7C /* NavBarController.swift */; };
+		9E339A782967CE2C00D3DA7C /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E339A772967CE2C00D3DA7C /* BaseController.swift */; };
+		9E339A7E2967CFF500D3DA7C /* ComposerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E339A7D2967CFF500D3DA7C /* ComposerController.swift */; };
+		9E339A802967D01B00D3DA7C /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E339A7F2967D01B00D3DA7C /* SettingsController.swift */; };
+		9E339A822968472700D3DA7C /* CollectionCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E339A812968472700D3DA7C /* CollectionCellView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E339A402965CB6C00D3DA7C /* SleepSoundsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepSoundsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E339A432965CB6C00D3DA7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E339A452965CB6C00D3DA7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9E339A472965CB6C00D3DA7C /* SleepController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepController.swift; sourceTree = "<group>"; };
+		9E339A4C2965CB6D00D3DA7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E339A4F2965CB6D00D3DA7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E339A512965CB6D00D3DA7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E339A592965CC8D00D3DA7C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		9E339A5D2965CD0800D3DA7C /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		9E339A5F2965CD1300D3DA7C /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		9E339A732967CBCC00D3DA7C /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
+		9E339A772967CE2C00D3DA7C /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		9E339A7D2967CFF500D3DA7C /* ComposerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerController.swift; sourceTree = "<group>"; };
+		9E339A7F2967D01B00D3DA7C /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		9E339A812968472700D3DA7C /* CollectionCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCellView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E339A3D2965CB6C00D3DA7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E339A372965CB6C00D3DA7C = {
+			isa = PBXGroup;
+			children = (
+				9E339A422965CB6C00D3DA7C /* SleepSoundsApp */,
+				9E339A412965CB6C00D3DA7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E339A412965CB6C00D3DA7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E339A402965CB6C00D3DA7C /* SleepSoundsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E339A422965CB6C00D3DA7C /* SleepSoundsApp */ = {
+			isa = PBXGroup;
+			children = (
+				9E339A5B2965CCF400D3DA7C /* Helper */,
+				9E339A582965CBBC00D3DA7C /* SupportingFiles */,
+				9E339A572965CBAC00D3DA7C /* Application */,
+				9E339A752967CE0400D3DA7C /* Controllers */,
+				9E339A812968472700D3DA7C /* CollectionCellView.swift */,
+			);
+			path = SleepSoundsApp;
+			sourceTree = "<group>";
+		};
+		9E339A572965CBAC00D3DA7C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9E339A432965CB6C00D3DA7C /* AppDelegate.swift */,
+				9E339A452965CB6C00D3DA7C /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9E339A582965CBBC00D3DA7C /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9E339A4C2965CB6D00D3DA7C /* Assets.xcassets */,
+				9E339A4E2965CB6D00D3DA7C /* LaunchScreen.storyboard */,
+				9E339A512965CB6D00D3DA7C /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		9E339A5B2965CCF400D3DA7C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9E339A5C2965CCFA00D3DA7C /* Extensions */,
+				9E339A5D2965CD0800D3DA7C /* Resources.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		9E339A5C2965CCFA00D3DA7C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9E339A5F2965CD1300D3DA7C /* UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9E339A752967CE0400D3DA7C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E339A7C2967CFD000D3DA7C /* Settings */,
+				9E339A7B2967CFC900D3DA7C /* Composer */,
+				9E339A7A2967CFC400D3DA7C /* Sleep */,
+				9E339A792967CFB500D3DA7C /* Base */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9E339A792967CFB500D3DA7C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9E339A592965CC8D00D3DA7C /* TabBarController.swift */,
+				9E339A732967CBCC00D3DA7C /* NavBarController.swift */,
+				9E339A772967CE2C00D3DA7C /* BaseController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9E339A7A2967CFC400D3DA7C /* Sleep */ = {
+			isa = PBXGroup;
+			children = (
+				9E339A472965CB6C00D3DA7C /* SleepController.swift */,
+			);
+			path = Sleep;
+			sourceTree = "<group>";
+		};
+		9E339A7B2967CFC900D3DA7C /* Composer */ = {
+			isa = PBXGroup;
+			children = (
+				9E339A7D2967CFF500D3DA7C /* ComposerController.swift */,
+			);
+			path = Composer;
+			sourceTree = "<group>";
+		};
+		9E339A7C2967CFD000D3DA7C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9E339A7F2967D01B00D3DA7C /* SettingsController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E339A3F2965CB6C00D3DA7C /* SleepSoundsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E339A542965CB6D00D3DA7C /* Build configuration list for PBXNativeTarget "SleepSoundsApp" */;
+			buildPhases = (
+				9E339A3C2965CB6C00D3DA7C /* Sources */,
+				9E339A3D2965CB6C00D3DA7C /* Frameworks */,
+				9E339A3E2965CB6C00D3DA7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SleepSoundsApp;
+			productName = SleepSoundsApp;
+			productReference = 9E339A402965CB6C00D3DA7C /* SleepSoundsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E339A382965CB6C00D3DA7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					9E339A3F2965CB6C00D3DA7C = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 9E339A3B2965CB6C00D3DA7C /* Build configuration list for PBXProject "SleepSoundsApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E339A372965CB6C00D3DA7C;
+			productRefGroup = 9E339A412965CB6C00D3DA7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E339A3F2965CB6C00D3DA7C /* SleepSoundsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E339A3E2965CB6C00D3DA7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E339A502965CB6D00D3DA7C /* LaunchScreen.storyboard in Resources */,
+				9E339A4D2965CB6D00D3DA7C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E339A3C2965CB6C00D3DA7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E339A482965CB6C00D3DA7C /* SleepController.swift in Sources */,
+				9E339A602965CD1300D3DA7C /* UIColor.swift in Sources */,
+				9E339A5A2965CC8D00D3DA7C /* TabBarController.swift in Sources */,
+				9E339A742967CBCC00D3DA7C /* NavBarController.swift in Sources */,
+				9E339A822968472700D3DA7C /* CollectionCellView.swift in Sources */,
+				9E339A442965CB6C00D3DA7C /* AppDelegate.swift in Sources */,
+				9E339A7E2967CFF500D3DA7C /* ComposerController.swift in Sources */,
+				9E339A802967D01B00D3DA7C /* SettingsController.swift in Sources */,
+				9E339A5E2965CD0800D3DA7C /* Resources.swift in Sources */,
+				9E339A782967CE2C00D3DA7C /* BaseController.swift in Sources */,
+				9E339A462965CB6C00D3DA7C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E339A4E2965CB6D00D3DA7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E339A4F2965CB6D00D3DA7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E339A522965CB6D00D3DA7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E339A532965CB6D00D3DA7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E339A552965CB6D00D3DA7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DK9KW4SF59;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SleepSoundsApp/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jusansingularity.ios.zhubatkanov.SleepSoundsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E339A562965CB6D00D3DA7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DK9KW4SF59;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SleepSoundsApp/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jusansingularity.ios.zhubatkanov.SleepSoundsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E339A3B2965CB6C00D3DA7C /* Build configuration list for PBXProject "SleepSoundsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E339A522965CB6D00D3DA7C /* Debug */,
+				9E339A532965CB6D00D3DA7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E339A542965CB6D00D3DA7C /* Build configuration list for PBXNativeTarget "SleepSoundsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E339A552965CB6D00D3DA7C /* Debug */,
+				9E339A562965CB6D00D3DA7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E339A382965CB6C00D3DA7C /* Project object */;
+}
